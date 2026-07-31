@@ -15,16 +15,6 @@ A small Python ORM built on top of SQLite from scratch: metaclasses, field descr
 - Python 3
 - sqlite3 (standard library)
 
-## Structure
-```
-orm/
-├── database.py     # SQLite connection, cursor, commit
-├── fields.py        # field descriptors (IntegerField, TextField)
-├── metaclasses.py   # metaclass that collects model fields
-├── models.py         # base Model class (create_table, save, delete)
-└── query.py          # query builder (select/where/execute)
-main.py               # usage example
-```
 
 ## Run
 ```bash
