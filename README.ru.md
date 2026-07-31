@@ -15,16 +15,6 @@
 - Python 3
 - sqlite3 (стандартная библиотека)
 
-## Структура
-```
-orm/
-├── database.py     # подключение к SQLite, курсор, коммит
-├── fields.py        # дескрипторы полей (IntegerField, TextField)
-├── metaclasses.py   # метакласс, собирающий поля модели
-├── models.py         # базовый класс Model (create_table, save, delete)
-└── query.py          # query builder (select/where/execute)
-main.py               # пример использования
-```
 
 ## Запуск
 ```bash
